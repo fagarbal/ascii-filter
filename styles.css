@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.render {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.render div {
+    display: flex;
+}
+
+.char {
+    flex: 1;
+}
+
+canvas {
+    display: block;
+}
